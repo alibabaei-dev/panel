@@ -1,0 +1,66 @@
+/* color codes:
+سبزآبی
+#3cc3a0
+نارنجی
+#f47d20 */
+H1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 300px;
+    margin: 50px auto; /* وسط صفحه */
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding-top:170px;
+}
+
+/* <<--ai answer>>-- */
+
+#login-form form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 50px auto; /* وسط صفحه */
+  }
+  
+  .label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3cc3a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #rejester {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f47d20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
