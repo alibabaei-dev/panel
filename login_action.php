@@ -1,8 +1,14 @@
 <?php
+session_start();
+
+
 require 'db.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];
+
+$_SESSION['email'] = $email;
+
 
 $sql = "SELECT * FROM users WHERE email = '$email'";
 $result = $conn->query($sql);
@@ -21,3 +27,5 @@ if ($result->num_rows === 1) {
 }
 
 $conn->close();
+
+
